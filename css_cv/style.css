@@ -3,6 +3,7 @@ body
 	width : 665px;
 	height: 950px;
 	display: flex;
+	border: 1px solid black;
 }
 
 
@@ -68,11 +69,24 @@ img
 
 #side_right
 {
-	background-color: grey;
 	width: 445px;
 	height: 950px;
 }
 
+header
+{
+	margin-left: 30px;
+}
+
+#subtitle
+{
+	font-size: 18px;
+}
+
+#border_subtitle
+{
+	border-bottom: 1px solid #FDD835;
+}
 p
 {
 	font-size: 10.5px;
