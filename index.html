@@ -11,99 +11,73 @@
     <body>
     	<div id="side_left">
     		<img src="imagesP2/moi.jpg" alt="photo de moi>">
-            <h2 class="left_title">CONTACT</h2>
+            <h3 class="left_title">CONTACT</h3>
     		<section id="contact">
     			<p>Adresse <br/>11 avenue du 6 juin, 14000,<br/> Caen France</p>
     			<p>Téléphone<br/>06.61.93.51.47</p>
 	    		<p>E-mail<br/>carbonnierduncan@gmail.com</p>
     		</section>
-            <h2 class="left_title">A PROPOS DE MOI</h2>
+            <h3 class="left_title">A PROPOS DE MOI</h3>
     		<section id="about_me">
     			<p>Bonjour, je m'appelle Carbonnier Duncan, j'ai 22 ans et je sors de la formation d'OpenClassroom pour devenir développeur web, j'habite actuellement à Caen en normandie mais je suis tout a fait disposé à déménager si nécessaire.</p>
     		</section>
-            <h2 class="left_title" id="marge_hobbies">LOISIRS</h2>
+            <h3 class="left_title" id="marge_hobbies">LOISIRS</h3>
     		<section id="hobbies">
     			<div class="border_icon" id="swim"><i class="fas fa-swimmer"></i></div>
     			<div class="border_icon"><i class="fas fa-plane"></i></div>
     			<div class="border_icon"><i class="fas fa-umbrella-beach"></i></div>
-    			<!-- utiliser flexbox pour le CSS display flex, essayer d'ajouter une bordure full ronde ? -->
     		</section>
     	</div>
-    		<!-- structure du coté gauche fini -->
     	<div id="side_right">
     		<header>
-    			<h1>Carbonnier Duncan<br/> <span id="subtitle"><span id="border_subtitle">Dével</span>oppeur Web</span></h1>
-    		</header> <!-- gérer les marges internes entre h1 et h2, les aligner sur la même lignes -->
-    		<section id="training">
-    			<h2> <i class="fas fa-graduation-cap"></i>Formation</h2>
-                <div id="flex_year">
-                    <div class="year">
-                        <p>juillet 2016 (2 semaines)<br/>
-                        Cherbourg</p>
-                    </div>
-                    <div class="year">
-                        <p>2015 - 2016<br/>
-                        Carentan</p>
-                    </div>
-                </div>
-                    <div id="description">
-                        <div class="content">
-                            <h4>Préparation militaire en Gendarmerie</h4>
-                            <h5>Gendarmerie</h5>
-                            <p>Apprendre les rudiments d'un soldat, l'auto-défense et le métier de gendarme. Obtention du brevet autorisant le port d'un MAS-G1. Obtention du brevet autorisant à se servir d'un baton téléscopique</p>    
-                        </div>
-                        <div class="content">
-                            <h4>BAC Science technologique du management et de la gestion</h4>
-                            <h5>Lycée sivard de beaulieu</h5>
-                            <p>Etude de la mercatique, du management d'une organisation et de la gestion du personnel. Etude du droit juridique d'une organisation.</p>
-                        </div>
-                    </div>
+    			<h1>Carbonnier <span id="name_color">Duncan</span><br/><span id="subtitle"><span id="border_subtitle">Dével</span>oppeur Web</span></h1>
+    		</header>
+            <h2><i class="fas fa-graduation-cap"><span class="padding_title"></i>Formation</span></h2>
+    		<section class="flex">
+                <ul class="year">
+                    <li>juillet 2016<br/>
+                    Cherbourg</li>
+                    <li>2015 - 2016<br/>
+                    Carentan</li>
+                </ul>
+                <ul class="content">
+                    <li><h4>Préparation militaire en Gendarmerie</h4>
+                    <h5>Gendarmerie</h5>
+                        <p>Apprendre les rudiments d'un soldat, l'auto-défense et le métier de gendarme. Obtention du brevet autorisant le port d'un MAS-G1. Obtention du brevet autorisant à se servir d'un baton téléscopique</p></li>  
+                    <li><h4>BAC Science technologique du management et de la gestion</h4>
+                        <h5>Lycée sivard de beaulieu</h5>
+                        <p>Etude de la mercatique, du management d'une organisation et de la gestion du personnel. Etude du droit juridique d'une organisation.</p></li>
+                </ul>
     		</section>
-    		<section id="experience">
-				<h2><i class="fas fa-business-time"></i>Experience Professionnelle</h2>
-                <div id="flexbox_expannée">
-                    <div class="year">
-                        <p>févr. 2019 - nov. 2019 (10 mois)<br/>
-                        Caen</p>
-                    </div>
-                    <div class="year">
-                        <p>févr. 2014 - aout 2017 (7mois)<br/>
-                        Isigny sur mer</p>
-                    </div>
-                    <div class="year">
-                        <p>sept. 2016 - janv. 2017 (5mois)<br/>
-                        Département de la manche</p>
-                    </div>
-                    <div class="year">
-                        <p>aout 2016 (1 mois)<br/>
-                        Carentan</p>
-                    </div>
-                </div>
-            </section>
-            <div id="description">
-                <div class="content">
-                    <h4>Téléconseiller</h4>
-                    <h5>Webhelp</h5>
-                    <p>Accueillir, écouter et répondre à l'attente du client par téléphone. L'aiguiller et le conseiller dans la gestion de son contrat d'éléctricité avec EDF.</p>
-                </div>
-                <div class="content">
-                    <h4>Intérimaire</h4>
-                    <h5>Isigny st maire</h5>
-                    <p>Fabriquer et conditionner à la chaine les produits de la marque</p>
-                </div>
-                <div class="content">
-                    <h4> Réserviste </h4>
-                    <h5> gendarmerie </h5>
-                    <p>Epauler les gendarmes en fonctions dans leurs tâches</p>
-                </div>
-                <div class="content">
-                    <h4>Agent d'entretien</h4>
-                    <h5>Communauté de commune de carentan</h5>
-                    <p>Ramassage d'ordure ménagère derrière le camion à benne</p>
-                </div>
+            <h2><i class="fas fa-business-time"></i><span class="padding_title">Experience Professionnelle</span></h2>
+    		<section class="flex">
+                <ul class="year">
+                    <li>févr. 2019 - nov. 2019 (10 mois)<br/>
+                        Caen</li>
+                    <li>févr. 2014 - aout 2017 (7mois)<br/>
+                        Isigny sur mer</li>
+                    <li>sept. 2016 - janv. 2017 (5mois)<br/>
+                        Département de la manche</li>
+                    <li>aout 2016 (1 mois)<br/>
+                        Carentan</li>
+                </ul>
+                <ul class="content">
+                    <li><h4>Téléconseiller</h4>
+                        <h5>Webhelp</h5>
+                        <p>Accueillir, écouter et répondre à l'attente du client par téléphone. L'aiguiller et le conseiller dans la gestion de son contrat d'éléctricité avec EDF.</p></li>
+                    <li><h4>Intérimaire</h4>
+                        <h5>Isigny st maire</h5>
+                        <p>Fabriquer et conditionner à la chaine les produits de la marque</p></li>
+                    <li><h4> Réserviste </h4>
+                        <h5> gendarmerie </h5>
+                        <p>Epauler les gendarmes en fonctions dans leurs tâches</p></li>
+                    <li><h4>Agent d'entretien</h4>
+                        <h5>Communauté de commune de carentan</h5>
+                        <p>Ramassage d'ordure ménagère derrière le camion à benne</p></li>
+                </ul>
     		</section>
     		<section id="recommandation">
-    			<h2><i class="fas fa-sign-language"></i>Recommandation</h2>
+    			<h2><i class="fas fa-sign-language"><span class="padding_title"></i>Recommandation</span></h2>
                 <h5>Christophe Gilles</h5>
                 <p>Développeur Full Stack<br/>
                     Téléphone : 06.40.91.39.46<br/>
