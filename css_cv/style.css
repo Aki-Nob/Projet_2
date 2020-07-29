@@ -1,135 +1,85 @@
-body
-{
-	width : 665px;
-	height: 950px;
+.d-flex {
 	display: flex;
-	border: 1px solid black;
 }
-
-
 
 #side_left
 {
-	background-color: #FDD835;
-	width: 220px;
-	height: 950px;
+	/*background-color: #FDD835;*/
+	width: 20%;
 }
 
-img
+#side_left > img
 {
-	margin : 50px 20px 50px 60px;
-	border-radius: 50px 50px;
-	box-shadow: 0px 0px 6px rgb(60, 60, 60);
+	display: block;
+	margin: 100px auto;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
 }
 
-.left_title
+#side_left > h3
 {
-	background-color: rgb(60, 60, 60);
-	color : #FDD835;
-	font-size: 20px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding: 5px 0;
 	text-align: center;
+	background-color: silver;
 }
 
-#contact
+.center, header, section > p, /*ul, li*/
 {
-	padding: 5px 10px 5px 20px;
+	padding: 20px 20px;
 }
 
-#about_me
-
+ul, li
 {
-	padding: 5px 20px 5px 20px;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: baseline;
 }
 
-#marge_hobbies
+#j-text
 {
-	margin-top: 265px;
+	text-align: justify;
+	margin: 20px 20px;
 }
 
 #hobbies
 {
 	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin: 40px auto;
 }
 
-.border_icon
-{
-	border: 1px solid black;
-	padding: 3px 3px 3px 3px;
-	border-radius: 50px 50px;
-	margin-right: 20px;
-}
-
-#swim
-{
-	margin-left: 40px;
-}
 
 
 #side_right
 {
-	width: 445px;
-	height: 950px;
-	margin-left: 30px;
-	margin-right: 30px;
+	width: 80%;
 }
 
-#name_color
+
+
+
+
+/* ------------ */
+
+
+
+
+
+body
 {
-	color: #FDD835;
+	
+	/*border: 1px solid black;*/
 }
 
-#subtitle
+
+
+
+#border_job
 {
-	font-size: 18px;
-}
-
-#border_subtitle
-{
-	border-bottom: 1px solid #FDD835;
-}
-
-.padding_title
-{
-	padding-left: 20px;
-}
-
-.year
-{
-	padding-right: 100px;
-	margin-top: 12px;
-	background-color: grey;
-}
-
-.content
-{
-	background-color: pink;
-}
-
-.flex
-{
-	display: inline-flex;
-}
-
-h2
-{
-	border-bottom: 1px solid #FDD835;
+	/*border-bottom: 1px solid #FDD835;*/
 }
 
 
-
-
-
-
-p, ul
-{
-	font-size: 10.5px;
-	font-family: Arial;
-	text-align: justify;
-}
-
-h1, h2, h3, h4, h5
-{
-	font-family: sans-serif;
-}
